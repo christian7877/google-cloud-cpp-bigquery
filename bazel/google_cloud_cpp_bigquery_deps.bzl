@@ -63,10 +63,10 @@ def google_cloud_cpp_bigquery_deps():
         http_archive(
             name = "com_google_googleapis",
             urls = [
-                "https://github.com/googleapis/googleapis/archive/304d00375de19c847a730bfd7f077e523a1abba9.tar.gz",
+                "https://github.com/googleapis/googleapis/archive/bf839ae632e0f263a729569e44be4b38b1c85f9c.tar.gz",
             ],
-            strip_prefix = "googleapis-304d00375de19c847a730bfd7f077e523a1abba9",
-            sha256 = "83979885c1e5165ebef8a4abe948beb998b7c7e74654cae82cc4d8d02516c732",
+            strip_prefix = "googleapis-bf839ae632e0f263a729569e44be4b38b1c85f9c",
+            sha256 = "874a4ad1f65c346a8a73c91e78cca0d49e5da3be5a7e58a05d6b2c74bc331ac6",
             build_file = "@com_github_googleapis_google_cloud_cpp_bigquery//bazel:googleapis.BUILD",
         )
 
